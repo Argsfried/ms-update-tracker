@@ -75,7 +75,7 @@ sudo usermod -aG docker $USER
 
 ## 🔒 Configuration & Git Exclusion Setup
 
-To prevent committing sensitive environment variables, passwords, or persistent local database files, ensure you create a .gitignore and .env.example file before pushing code to your repository.
+To prevent committing sensitive environment variables, passwords, or persistent local database files, ensure you create a .gitignore before pushing code to your repository.
 
 **Create a .gitignore file in your repository root:**
 ```text
