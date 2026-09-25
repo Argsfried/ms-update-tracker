@@ -142,3 +142,9 @@ docker compose up -d --build
 
 docker compose up -d --force-recreate --build
 `````
+
+---
+
+## License
+
+[MIT License](LICENSE)
