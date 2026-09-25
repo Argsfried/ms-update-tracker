@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  ms_updates:
+    build: .
+    container_name: ms_updates_app
+    ports:
+      - "5000:5000"
+    environment:
+      - TZ=Asia/Manila
+    volumes:
+      - ./database.db:/app/database.db
+      - ./config.json:/app/config.json
+      - ./.env:/app/.env
+    restart: unless-stopped

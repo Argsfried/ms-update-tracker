@@ -1,0 +1,16 @@
+# Sensitive Environment Variables
+.env
+
+# Local Databases & Dynamic Storage
+*.db
+database.db
+config.json
+
+# Python Caches
+__pycache__/
+*.pyc
+
+# IDE / OS Files
+.DS_Store
+.vscode/
+.idea/
